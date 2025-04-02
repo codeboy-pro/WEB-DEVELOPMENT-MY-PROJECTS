@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.hashtag-header{
+  
+    background-color: #0660D4;
+    padding: 4rem;
+    color: white;
+    background-image:url(/image/back.png);
+    background-size:260px;
+background-position-x: 100%;
+background-position-y: -120px;
+    background-repeat: no-repeat;
+}
+h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.hashtag-header span{
+    font-size: 1.5rem;
+}
+.hashtag-header img{
+    width: 5rem;
+    height: 6rem;
+    border-radius: 100%;
+    border: 5px solid white;
+    height: 5rem;
+    vertical-align: middle;
+    /* margin-left: -1rem; */
+}
+img+img{
+    margin-left: -2rem;
+}
